@@ -28,7 +28,7 @@ function sendName() {
     const answer = document.getElementById("containerAnswer");
 
     answer.innerHTML = "The name write is" = nameAnswer;
-
+    answer.style.display = "flex";
     answer.style.height = "150px";
     answer.style.backgroundImage =
     "linear gradientito right, red,orange,yellow,green,blue,indigo,violet";
